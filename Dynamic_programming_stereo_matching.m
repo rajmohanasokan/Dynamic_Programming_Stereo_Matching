@@ -75,35 +75,3 @@ end
 clear C M
 end
 time_taken = toc;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-%imshow(Disparity,[]), axis image, colormap('jet'), colorbar;
-%caxis([0 disparityRange]);
-%imwrite('DisparityDyn.png', Disparity);
